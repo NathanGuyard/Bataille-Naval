@@ -1,4 +1,4 @@
-# Bataille-Naval
+# Bataille-Navale
 
 Bataille Naval réalisée entièrement en JavaScript, HTML, CSS pendant ma formation 
 
