@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bataille Navale</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <h3>Tour 1</h3>
+
+    <form class="form">
+        <label for="cellToHit">Case sur laquelle envoyer un missile :</label>
+        <input type="text" id="cellToHit" maxlength="2">
+        <button>Missile !!!!</button>
+    </form>
+
+    <div class="highscores">
+        <h4>Scores</h4>
+        <ul>
+
+        </ul>
+    </div>
+
+    <div id="grid">
+        <section class="row">
+            <header class="cell"></header>
+            <header class="cell">A</header>
+            <header class="cell">B</header>
+            <header class="cell">C</header>
+            <header class="cell">D</header>
+            <header class="cell">E</header>
+            <header class="cell">F</header>
+            <header class="cell">G</header>
+            <header class="cell">H</header>
+        </section>
+        <section class="row">
+            <header class="cell">1</header>
+            <div class="cell" id="cell00" data-cell-name="A1" data-truc="coucou" data-promo="Ylusse"></div>
+            <div class="cell" id="cell01" data-cell-name="B1"></div>
+            <div class="cell" id="cell02" data-cell-name="C1"></div>
+            <div class="cell" id="cell03" data-cell-name="D1"></div>
+            <div class="cell" id="cell04" data-cell-name="E1"></div>
+            <div class="cell" id="cell05" data-cell-name="F1"></div>
+            <div class="cell" id="cell06" data-cell-name="G1"></div>
+            <div class="cell" id="cell07" data-cell-name="H1"></div>
+        </section>
+        <section class="row">
+            <header class="cell">2</header>
+            <div class="cell" id="cell10" data-cell-name="A2"></div>
+            <div class="cell" id="cell11" data-cell-name="B2"></div>
+            <div class="cell" id="cell12" data-cell-name="C2"></div>
+            <div class="cell" id="cell13" data-cell-name="D2"></div>
+            <div class="cell" id="cell14" data-cell-name="E2"></div>
+            <div class="cell" id="cell15" data-cell-name="F2"></div>
+            <div class="cell" id="cell16" data-cell-name="G2"></div>
+            <div class="cell" id="cell17" data-cell-name="H2"></div>
+        </section>
+        <section class="row">
+            <header class="cell">3</header>
+            <div class="cell" id="cell20" data-cell-name="A3"></div>
+            <div class="cell" id="cell21" data-cell-name="B3"></div>
+            <div class="cell" id="cell22" data-cell-name="C3"></div>
+            <div class="cell" id="cell23" data-cell-name="D3"></div>
+            <div class="cell" id="cell24" data-cell-name="E3"></div>
+            <div class="cell" id="cell25" data-cell-name="F3"></div>
+            <div class="cell" id="cell26" data-cell-name="G3"></div>
+            <div class="cell" id="cell27" data-cell-name="H3"></div>
+        </section>
+        <section class="row">
+            <header class="cell">4</header>
+            <div class="cell" id="cell30" data-cell-name="A4"></div>
+            <div class="cell" id="cell31" data-cell-name="B4"></div>
+            <div class="cell" id="cell32" data-cell-name="C4"></div>
+            <div class="cell" id="cell33" data-cell-name="D4"></div>
+            <div class="cell" id="cell34" data-cell-name="E4"></div>
+            <div class="cell" id="cell35" data-cell-name="F4"></div>
+            <div class="cell" id="cell36" data-cell-name="G4"></div>
+            <div class="cell" id="cell37" data-cell-name="H4"></div>
+        </section>
+        <section class="row">
+            <header class="cell">5</header>
+            <div class="cell" id="cell40" data-cell-name="A5"></div>
+            <div class="cell" id="cell41" data-cell-name="B5"></div>
+            <div class="cell" id="cell42" data-cell-name="C5"></div>
+            <div class="cell" id="cell43" data-cell-name="D5"></div>
+            <div class="cell" id="cell44" data-cell-name="E5"></div>
+            <div class="cell" id="cell45" data-cell-name="F5"></div>
+            <div class="cell" id="cell46" data-cell-name="G5"></div>
+            <div class="cell" id="cell47" data-cell-name="H5"></div>
+        </section>
+        <section class="row">
+            <header class="cell">6</header>
+            <div class="cell" id="cell50" data-cell-name="A6"></div>
+            <div class="cell" id="cell51" data-cell-name="B6"></div>
+            <div class="cell" id="cell52" data-cell-name="C6"></div>
+            <div class="cell" id="cell53" data-cell-name="D6"></div>
+            <div class="cell" id="cell54" data-cell-name="E6"></div>
+            <div class="cell" id="cell55" data-cell-name="F6"></div>
+            <div class="cell" id="cell56" data-cell-name="G6"></div>
+            <div class="cell" id="cell57" data-cell-name="H6"></div>
+        </section>
+        <section class="row">
+            <header class="cell">7</header>
+            <div class="cell" id="cell60" data-cell-name="A7"></div>
+            <div class="cell" id="cell61" data-cell-name="B7"></div>
+            <div class="cell" id="cell62" data-cell-name="C7"></div>
+            <div class="cell" id="cell63" data-cell-name="D7"></div>
+            <div class="cell" id="cell64" data-cell-name="E7"></div>
+            <div class="cell" id="cell65" data-cell-name="F7"></div>
+            <div class="cell" id="cell66" data-cell-name="G7"></div>
+            <div class="cell" id="cell67" data-cell-name="H7"></div>
+        </section>
+        <section class="row">
+            <header class="cell">8</header>
+            <div class="cell" id="cell70" data-cell-name="A8"></div>
+            <div class="cell" id="cell71" data-cell-name="B8"></div>
+            <div class="cell" id="cell72" data-cell-name="C8"></div>
+            <div class="cell" id="cell73" data-cell-name="D8"></div>
+            <div class="cell" id="cell74" data-cell-name="E8"></div>
+            <div class="cell" id="cell75" data-cell-name="F8"></div>
+            <div class="cell" id="cell76" data-cell-name="G8"></div>
+            <div class="cell" id="cell77" data-cell-name="H8"></div>
+        </section>
+    </div>
+    <div>
+        <button id="stats">Voir les statistiques</button>
+        <button id="toogle-actions">Afficher/Cacher l'historique</button>
+        <select name="select-theme" id="select-theme">
+            <option value="oclock" selected>O'clock</option>
+            <option value="f0f">F0F</option>
+            <option value="black-and-white">Black and White</option>
+            <option value="terminal">Terminal</option>
+        </select>
+    </div>
+    
+    <div id="actions" class="hide-actions">
+    
+    </div>
+    <!-- On lie notre fichier JS à notre page HTML grace à la balise script. Celle-ci doit toujours etre placée juste avant la fermeture de la balise <body> afin d'attendre que la page ait fini de charger avant d'inclure le fichier JS. -->
+    <script src="js/grid.js"></script>
+    <script src="js/stat.js"></script>
+    <script src="js/score.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
